@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+ul {
+  list-style: none;
+}
+
+header {
+  background: linear-gradient(#cf3073, #e21d81);
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: white;
+}
